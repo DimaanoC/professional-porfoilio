@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.dimaano{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('wallpaper.png') no-repeat center center/cover;
+	position: sticky;
+}
+nav{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding: 10px 0px;
+	align-items: center;
+	justify-content: center;	
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: orange;
+}
+.home{
+	margin-left: 8%;
+	margin-top: 10%;
+}
+.home h1{
+	font-size: 50px;
+	color: #99A98F;
+	margin-bottom: 20px;
+}
+span{
+	color: orange;
+}
+.home p{
+	color: #fff;
+	line-height: 22px;
+}
+.home a{
+	background: #000;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+.About{
+	width:100%;
+	padding: 100px 0px;
+	background-color: #16213E;
+}
+.About img{
+	height: auto;
+	width: 450px;
+}
+.About-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.About-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.About-text h4{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.About-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	fonr-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .5s;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid;
+	cursor: pointer;
+}
+.Services{
+	background: #16213E;
+	width: 100%;
+	padding: 100px 0px;
+}
+.UNA h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.square{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 450px;
+	width: 365px;
+	padding: 20px 35px;
+	background: #101010;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+h4{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.CONTACTS{
+	width: 100%;
+	height: 325px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: #191919;
+}
+.CONTACTS p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.CONTACTS .button-two{	
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	fonr-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .5s;
+}
+.CONTACTS .button-two:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: centera;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer h2:nth-child(2){
+	color: whitesmoke;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.fa{
+    width: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+
